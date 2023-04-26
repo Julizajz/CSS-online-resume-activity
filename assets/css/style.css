@@ -61,3 +61,12 @@ img{
   border-radius: 50%;
 }
 
+.contact-info{
+  background-color: #abd7eb;
+  width: 350px;
+  height: 300px;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
