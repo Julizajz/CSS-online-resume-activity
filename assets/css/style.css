@@ -1,5 +1,63 @@
 /* remove this code and add your own! */
-.greeting {
-  color: green;
-  font-size: 30px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body,html{
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #ffffff;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+
+}
+
+/* .resume{
+  height: 800px;
+  width: 500px;
+ 
+} */
+.profile{
+  height: 800px;
+  width: 500px;
+}
+span{
+  background-color: #b3e0e3;
+  height: 100px;
+}
+i{
+  color: #fff;
+}
+
+.circle-icon {
+  background: #2E5984;
+  padding:10px;
+  border-radius: 50% 40%;
+}
+
+.img{
+  width: 350px;
+  height: 400px;
+  background-color: #2E5984;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  height: 260px;
+  width: 280px;
+  border-radius: 50%;
+}
+
